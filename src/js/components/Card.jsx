@@ -2,20 +2,9 @@ import imagen1 from "../../img/eldenRing.png"
 import imagen2 from "../../img/subnautica2.png"
 import imagen3 from "../../img/gtaVI.png"
 import imagen4 from "../../img/cyberpunk.png"
+import CardItem from "./CardItem";
 
-function CardItem({ imagen, titulo, descripcion, alt }) {
-  return (
-    <div className="col">
-      <div className="card h-100">
-        <img src={imagen} className="card-img-top img-fluid" alt={alt} />
-        <div className="card-body">
-          <h5 className="card-title">{titulo}</h5>
-          <p className="card-text">{descripcion}</p>
-        </div>
-      </div>
-    </div>
-  );
-}
+
 
 const cardsData = [
   {
